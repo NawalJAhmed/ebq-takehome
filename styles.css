@@ -215,6 +215,36 @@ footer {
   color: var(--main);
 }
 
+.scrollUp{
+  position: fixed;
+}
+
+.scrollUpButton{
+  background-color: var(--buttonBackgroundInverse);
+  border: none;
+  color: var(--footerBackground);
+  padding: 0.3rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  transition-duration: 0.5s;
+  opacity: 0.5;
+  border-radius: 0.4rem;
+  z-index: 1;
+  transition: 0.4s;
+}
+
+.scrollUpButton:hover{
+  background-color: var(--buttonBackground);
+  color: var(--main);
+}
+
+.show-scroll{
+  bottom: 5%;
+  right: 5%;
+}
+
 /* iPad */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -376,4 +406,13 @@ footer {
     font-size: 2.5rem;
     padding: 0.5em 2em 0.5em 2em;
   }
+
+  .scrollUpButton {
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
 }

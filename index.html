@@ -54,14 +54,18 @@
           </p>
         </div>
         <div class="section2ImageDiv">
-          <img class="section2Image" src="/assets/Marketing_Tools.svg" alt="EBQ Marketing Tools" />
+          <img
+            class="section2Image"
+            src="/assets/Marketing_Tools.svg"
+            alt="EBQ Marketing Tools"
+          />
         </div>
       </div>
       <!-- Section 3 -->
       <div class="section3Box">
         <div class="section3ImageDiv">
           <img
-		  	class="section3Image"
+            class="section3Image"
             src="/assets/Complete-Department-Marketing.png"
             alt="EBQ Marketing Team"
           />
@@ -95,9 +99,19 @@
         </a>
       </div>
     </footer>
+    <!-- Scroll Button -->
+    <a href="#" class="scrollUp" id="scroll-up">
+      <button class="scrollUpButton" type="button">^</button>
+    </a>
 
     <script type="text/javascript">
       // Event listener JS goes here
+      const scrollUp = () => {
+        const scrollUp = document.getElementById('scroll-up');
+        if (this.scrollY >= 100) scrollUp.classList.add('show-scroll');
+        else scrollUp.classList.remove('show-scroll');
+      };
+      window.addEventListener('scroll', scrollUp);
     </script>
   </body>
 </html>
