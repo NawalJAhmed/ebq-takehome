@@ -192,3 +192,107 @@ footer {
   background-color: #2979EC;
   color: white;
 }
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .header {
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sections{
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+  }
+
+  .section1Box{
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+  }
+
+  .section1Paragraph{
+    padding-right: 20rem;
+  }
+
+  .section2Box{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .section2Title{
+    padding-right: 4rem
+  }
+
+  .section2Paragraph{
+    padding-right: 4rem
+  }
+
+  .section3Box{
+    padding-bottom: 5rem;
+  }
+
+  .section3Words{
+    padding-left: 5rem;
+  }
+
+  footer{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .footerTitle {
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 1120px) {
+
+  /* .header {
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .sections{
+    margin: 0;
+  } */
+
+  /* .btn-demo {
+      font-size: 1vw;
+  }
+  .card1-image {
+      flex: 1;
+  }
+  .turncard {
+      padding: 0;
+  }
+  .front {
+      width: 100%;
+      height: 100%;
+  }
+  .back {
+      width: 100%;
+      height: 100%;
+  }
+  .front-img {
+      width: 100%;
+      height: 100%;
+  }
+  .card2-image {
+      width: 60%;
+  }
+  .footer-title {
+      font-size: 1.75vw;
+  }
+  .btn-contact {
+      font-size: 0.8vw;
+  } */
+}
