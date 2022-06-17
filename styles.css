@@ -19,6 +19,7 @@
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 /*
     Typographic tweaks!
@@ -223,14 +224,14 @@ footer {
   background-color: var(--buttonBackgroundInverse);
   border: none;
   color: var(--footerBackground);
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bolder;
   transition-duration: 0.5s;
   opacity: 0.5;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   z-index: 1;
   transition: 0.4s;
 }
