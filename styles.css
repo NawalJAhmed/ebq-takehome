@@ -263,10 +263,12 @@ footer {
 
     .header {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
       padding: 0;
-      padding-bottom: 10rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+      padding-top: 3rem;
     }
 
     .ebqLogo {
@@ -349,7 +351,9 @@ footer {
       text-align: center;
     }
 
-    .buttonBottomDiv {
+    .buttonTop, .buttonBottom{
+      font-size: 2.5rem;
+      padding: 0.5em 2em 0.5em 2em;
     }
 
 }
